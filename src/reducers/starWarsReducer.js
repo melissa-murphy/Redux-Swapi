@@ -21,7 +21,7 @@ export const charsReducer = (state = initialState, action) => {
         ...state,
         isLoading: false,
         error: '',
-        character: action.payload
+        characters: action.payload
       };
       case FAILURE:
       return {
